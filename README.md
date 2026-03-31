@@ -1,5 +1,7 @@
 philosophers/ └── philo/ ├── Makefile # Build configuration ├── philosopher.h # Header file with data structures ├── main.c # Entry point and initialization ├── routines.c # Philosopher thread routines ├── actions.c # Eating, sleeping, thinking actions ├── current_time.c # Time tracking utilities └── ft_atoi.c # String to integer conversion
 
+Code
+
 ## Features
 
 ✅ **Thread-Safe Synchronization** - Uses pthread mutexes to protect shared resources (forks)
@@ -24,16 +26,16 @@ git clone https://github.com/somaya-Hassoune/philosophers.git
 cd philosophers/philo
 Build the project:
 
+bash
 make
-
 Clean build artifacts:
 
+bash
 make clean
-
 Usage
 Command Syntax
+bash
 ./philo <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> [number_of_meals]
-
 Parameters
 Parameter	Description	Unit
 number_of_philosophers	Number of philosophers (and forks)	count
@@ -48,6 +50,7 @@ bash
 ./philo 5 800 200 200
 Philosophers must eat 10 meals each:
 
+bash
 ./philo 4 410 200 200 10
 Single philosopher (special case):
 
