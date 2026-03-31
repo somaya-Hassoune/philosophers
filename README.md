@@ -125,9 +125,3 @@ somaya-Hassoune - Implementation of the Dining Philosophers Problem
 
 License
 This project is open source and available for educational purposes.
-
-Note: This is a classic concurrent programming exercise often used in computer science education to teach synchronization, mutex locks, thread coordination, and deadlock prevention strategies.
-
-Code
-
-This README provides a complete guide covering all aspects of your philosophers project. You can now update your repository with this comprehensive documentation!
