@@ -37,12 +37,13 @@ Command Syntax
 bash
 ./philo <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> [number_of_meals]
 Parameters
-Parameter	Description	Unit
-number_of_philosophers	Number of philosophers (and forks)	count
-time_to_die	Time a philosopher can survive without eating	milliseconds
-time_to_eat	Time required for a philosopher to eat	milliseconds
-time_to_sleep	Time a philosopher sleeps after eating	milliseconds
-number_of_meals	(Optional) Meals each philosopher must eat to stop	count
+| Parameter | Description | Unit |
+|-----------|-------------|------|
+| `number_of_philosophers` | Number of philosophers (and forks) | count |
+| `time_to_die` | Time a philosopher can survive without eating | milliseconds |
+| `time_to_eat` | Time required for a philosopher to eat | milliseconds |
+| `time_to_sleep` | Time a philosopher sleeps after eating | milliseconds |
+| `number_of_meals` | (Optional) Meals each philosopher must eat to stop | count |
 Examples
 Basic simulation with 5 philosophers:
 
