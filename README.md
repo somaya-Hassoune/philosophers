@@ -4,12 +4,12 @@ Code
 
 ## Features
 
-✅ **Thread-Safe Synchronization** - Uses pthread mutexes to protect shared resources (forks)
-✅ **Deadlock Prevention** - Implements proper fork acquisition and release strategies
-✅ **Configurable Parameters** - Command-line arguments for number of philosophers and timing
-✅ **Death Detection** - Monitors philosopher state and stops simulation if someone dies
-✅ **Meal Counting** - Optional tracking of meals eaten per philosopher
-✅ **Timestamp Logging** - Tracks state changes with millisecond precision
+**Thread-Safe Synchronization** - Uses pthread mutexes to protect shared resources (forks)
+**Deadlock Prevention** - Implements proper fork acquisition and release strategies
+**Configurable Parameters** - Command-line arguments for number of philosophers and timing
+**Death Detection** - Monitors philosopher state and stops simulation if someone dies
+**Meal Counting** - Optional tracking of meals eaten per philosopher
+**Timestamp Logging** - Tracks state changes with millisecond precision
 
 ## Prerequisites
 
